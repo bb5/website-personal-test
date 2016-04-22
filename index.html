@@ -9,10 +9,54 @@
 </head>
 
 	<body>
+
+		<style>
+
+		div { width: 50%;
+				float: left;
+			}
+		h1 {
+			color: blue;
+		}
+
+		p {
+			margin-top: 50px;
+		}
+
+		p, ul, ol {
+			color: green;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		/* this is a comment */
+
+		#heading {
+			font-size: 50px;
+		}
+		.paragraph {
+			font-style: italic;
+		}
+		p.paragraph.introduction {
+			padding-left: 100px;
+
+			}
+
+			div ul li {background-color: red
+
+			}
+
+
+		}
+
+		</style>
+
 <div>
-	<h1>This is an amazing page
+	<h1 id="heading">This is an amazing page
 </h1>
-<p> <!-- this is a comment -->Lorum ipsum Lorum ipsumLorum ipsumLorum ipsumLorum ipsumLorum ipsum
+<p class="paragraph introduction"> <!-- this is a comment -->Lorum ipsum Lorum ipsumLorum ipsumLorum ipsumLorum ipsumLorum ipsum
 	Lorum ipsumLorum ipsumLorum ipsumLorum ipsum
 	Lorum ipsumLorum ipsumLorum ipsumLorum ipsum
 </p>
@@ -23,7 +67,7 @@
 	<li>number three </li>
 </ul>
 
-<ul>
+<ol>
 	<li>number on </li>
 	<li>numer two </li>
 	<li>number three </li>
