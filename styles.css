@@ -1,0 +1,42 @@
+
+
+		div { width: 50%;
+				float: left;
+			}
+		h1 {
+			color: blue;
+		}
+
+		p {
+			margin-top: 50px;
+		}
+
+		p, ul, ol {
+			color: green;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		/* this is a comment */
+
+		#heading {
+			font-size: 50px;
+		}
+		.paragraph {
+			font-style: italic;
+		}
+		p.paragraph.introduction {
+			padding-left: 100px;
+
+			}
+
+			div ul li {background-color: red
+
+			}
+
+
+		}
+
+		
